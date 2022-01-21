@@ -1,0 +1,67 @@
+1642707715576	geckodriver	INFO	Listening on 127.0.0.1:61614
+1642707718847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61615" "-no-remote" "-profile" "C:\\Users\\INTELX~1\\AppData\\Local\\Temp\\rust_mozprofilefoUBMb"
+1642707719672	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\INTEL XEON 2680\\AppData\\Local\\Temp\\rust_mozprofilefoUBMb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61615/devtools/browser/9f206e45-5d5d-4d56-b4d6-75342df2880d
+1642707724268	Marionette	INFO	Listening on port 61621
+1642707724788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.463c81833344582ab256.js, line 59: unreachable code after return statement
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/notification_2a485d84012c106acef03b527bb54635.mp3
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.463c81833344582ab256.js, line 59: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.463c81833344582ab256.js, line 59: unreachable code after return statement
+1642707773391	Marionette	INFO	Stopped listening on port 61621
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackground::Msg_MessagePortForceClose Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642707824321	geckodriver	INFO	Listening on 127.0.0.1:61746
+1642707827661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61747" "-no-remote" "-profile" "C:\\Users\\INTELX~1\\AppData\\Local\\Temp\\rust_mozprofilewfAYag"
+1642707828406	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\INTEL XEON 2680\\AppData\\Local\\Temp\\rust_mozprofilewfAYag\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61747/devtools/browser/fde40ab0-c887-40be-84b0-2a5863063353
+1642707831966	Marionette	INFO	Listening on port 61754
+1642707832401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.463c81833344582ab256.js, line 59: unreachable code after return statement
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/notification_2a485d84012c106acef03b527bb54635.mp3
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.463c81833344582ab256.js, line 59: unreachable code after return statement
+1642708019911	Marionette	INFO	Stopped listening on port 61754
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642708025522	geckodriver	INFO	Listening on 127.0.0.1:61954
+1642708028898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61955" "-no-remote" "-profile" "C:\\Users\\INTELX~1\\AppData\\Local\\Temp\\rust_mozprofileYSlzml"
+1642708029468	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\INTEL XEON 2680\\AppData\\Local\\Temp\\rust_mozprofileYSlzml\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61955/devtools/browser/11172852-4990-4702-a12e-f475a67cfbb4
+1642708033383	Marionette	INFO	Listening on port 61962
+1642708033736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.463c81833344582ab256.js, line 59: unreachable code after return statement
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/notification_2a485d84012c106acef03b527bb54635.mp3
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.463c81833344582ab256.js, line 59: unreachable code after return statement
+1642708054273	Marionette	INFO	Stopped listening on port 61962
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1642708061778	geckodriver	INFO	Listening on 127.0.0.1:62036
+1642708065219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62037" "-no-remote" "-profile" "C:\\Users\\INTELX~1\\AppData\\Local\\Temp\\rust_mozprofileRgRVQ2"
+1642708065817	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\INTEL XEON 2680\\AppData\\Local\\Temp\\rust_mozprofileRgRVQ2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62037/devtools/browser/1f59d3cd-7ab3-4832-9c47-71bacddb1448
+1642708070098	Marionette	INFO	Listening on port 62045
+1642708070481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/bootstrap_qr.463c81833344582ab256.js, line 59: unreachable code after return statement
+1642708077171	Marionette	INFO	Stopped listening on port 62045
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
