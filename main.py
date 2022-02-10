@@ -6,10 +6,10 @@ from selenium.webdriver.common.keys import Keys
 import openpyxl
 import time
 import urllib
-import pyautogui
+import PySimpleGUI as sg
 
 contatos = pd.read_excel("Enviar.xlsx")
-display(contatos)
+#display(contatos)
 
 navegador = webdriver.Edge()
 navegador.get("https://web.whatsapp.com/")
@@ -22,7 +22,7 @@ for i, mensagem in enumerate(contatos['Mensagem']):
     numero = contatos.loc[i, "Número"]
     t1 = '''*A CLARO ESTÁ LIBERANDO PARA O SEU NÚMERO*
 
-✅*10GB DE INTERNET*
+✅*20GB DE INTERNET*
 ✅*LIGAÇÕES ILIMITADAS PRA QUALQUER OPERADORA*
 ✅*WHATSAPP FACEBOOK INSTAGRAM TWITTER WAZE*
 ✅*DESCONTOS EM APARELHO CELULAR NAS LOJAS CLARO*
@@ -36,12 +36,15 @@ for i, mensagem in enumerate(contatos['Mensagem']):
     while len(navegador.find_elements_by_id("side")) < 1:
         time.sleep(1)
 
+    
+    try:
+        time.sleep(2)
+        navegador.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[2]/button/span').click()
+        #navegador.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]').send_keys(Keys.ENTER)
+        time.sleep(2)
 
-    time.sleep(1)
-    navegador.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[2]/button/span').click()
-    #navegador.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]').send_keys(Keys.ENTER)
-    time.sleep(3)
-
-
+    except: 
+        navegador.find_element_by_xpath('//*[@id="app"]/div[1]/span[2]/div[1]/span/div[1]/div/div/div/div/div[2]/div').click()
+    
         
 
